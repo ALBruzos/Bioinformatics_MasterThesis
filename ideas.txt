@@ -1,0 +1,11 @@
+##IDEAS to add....
+
+#Collect the input data from the command line of the automatized bash scritp:
+#############################################################################
+
+sh script.sh input.txt
+##input.txt is saved as $1 so...
+
+Rscript src/MCcluster_Finder.R ${1} ${2}
+##Use inside R script the following function: input <- commandArgs(TRUE)
+
